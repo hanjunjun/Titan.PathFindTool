@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="EditionToolBar.Appearance" type="System.Windows.Forms.ToolBarAppearance, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BoutonDessiner.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BoutonDessiner.ToolTipText" xml:space="preserve">
+    <value>Draw nodes and arcs</value>
+  </data>
+  <data name="BoutonEffacer.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BoutonEffacer.ToolTipText" xml:space="preserve">
+    <value>Erase nodes and arcs</value>
+  </data>
+  <data name="BoutonDeplacer.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BoutonDeplacer.ToolTipText" xml:space="preserve">
+    <value>Move nodes</value>
+  </data>
+  <data name="BoutonChangerEtat.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BoutonChangerEtat.ToolTipText" xml:space="preserve">
+    <value>Change the state of nodes and arcs</value>
+  </data>
+  <data name="BoutonAEtoile.ImageIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BoutonAEtoile.ToolTipText" xml:space="preserve">
+    <value>Place starting and ending flags, then find the best path.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="EditionToolBar.ButtonSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="EditionToolBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="EditionToolBar.DropDownArrows" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="ImagesActions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ImagesActions.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAC0
+        DAAAAk1TRnQBSQFMAgEBBQEAAWQBAAFkAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wEAAW0BAAEOAf8GAAHw
+        AgABBzIAAfQCAAHvBgABbQIAAf8zAAEPAQABQwUAAfQCAAFtAf8zAAEHAgAB8wT/Ae8CAAHyNAAB/wkA
+        AQ8B/zQAAf8B6ggAAQc2AAHyAgAB8gIAAewCAAH0NgAB/wEOAQAB6wEAAf8BDgEAAew4AAH3AQABDwH/
+        AfACAAHyOAAB9AIAAbwB6gEAARUB/wEAAfQBvAH/NAAB/wEUAQABEQIAAQcCAAHvAQAB/zUAAbwDAAEO
+        Af8CAAHvAQAB/zUAAf8DAAHsAQABEjoAAewCAAHzAQAB8wHyAewBAAHxAfI8AAHvAQAB/z0AAQcBDgH/
+        MQAB/wHyAf8CAAHxBgcBvAH/AfMB9BcAAfIB7wH/CgAB8wFDAesBBwG8AZIBQwGSBAAB/wHrAW0BBwL/
+        B/QD/wEADf8IAAEHAwAB/wgAAW0BBwYAAf8BQwH0AgAB/wHsAfQB7wFtAfQLAAH/AfQB8QPwAfEF9AL/
+        BgABBwEAAfABDgHtAQ4B/wYAARQB/wkAAesB9AIAAfcB8AH/AbwB7QH/CgAB/wLwA7wB7wHzBv8GAAHs
+        Af8B8gEOAQABkgH0BQAB7wHzCwABQwIAAfEB6wH0Af8BHAH3Af8IAAH/BPEDvAEHAfMB/wgAAfMDAAHy
+        AQ4DAAH0Af8CAAH/AeoMAAH/AZIBAAH/AvcB/wF6AUoB8AgAAf8B8gHxAvIB8QO8AQcB9AH/BgABBwEA
+        Af8CAAHyAQ4DAAHsAQ4B/wEAAQcB9A0AAUMCAAH/Ae0BvAHDAVkB6wH0CAAB/wHyAfEC8gHxAfACvAEH
+        AfMB/wQAAQcBAAH/AgAB8wIAAUMDAAHsAQ4B/wEUDgABkgMAAfMBbQHyAaABUgHrAf8IAAH/BPIB8QLw
+        AQcBkwHxAf8FAAMOAQABvAIABA4BAAHvBwAB8gEPBgABvAMAAf8B8AHsAf8BmgFRAe8JAAH/AfIB8QPy
+        AQcCjgGTAfIB/wIAAQ4BFAH0AvMB7AFDAQcBAAPzAfEBAAHyAQ4GAAH/AfIGAAEHBQAB7wH3AfYBWQFu
+        AfAB/wgAAf8C8gHzAfABkwOOAZMB8wH/AQAB/wEOAewDAAHsAQAB9AIAAf8BAAEHAQAB7AH/DQAB6wUA
+        AfQBbQG8AcMBeQHrAfQJAAH/AfIBvAG2AbcBkwKOApMB/wIAAf8BDwH/AgAB8gEOAwAB6wEHAgAB9AEH
+        DQABQwYAAfQB7AH/AfYB9AG9Af8JAAH/AbwBvQK3AZMBjgGTAfMB/wUAAf8BAAHyAQ4BAAH/BgABEQwA
+        AQcB8wcAAfQB8wGUAeMBaQG2Af8JAAH/ARoDtwGTAfIB/wYAAQ8B7AHzAQ4B/wEAAfIFAAH/AW0KAAH/
+        AW0IAAH/AZQC4wFqAW8B/woAAf8BGgG9AZMB8wH/BwAB/wEOARUBDgEAAe8HAAHyAW0IAAHzARQKAAH/
+        AZQB4wGxAfQMAAH/AfEB8wH/CQAB/wEPAQAB7wkAAf8BEQEHAf8DAAH0AeoB7zgAAfQB7AEOAQABFAEH
+        Af8EAAFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYAAQEWAAP/AQABDwHDBgABDwHDBgABjwGD
+        BgABgAEHBgABgAEHBgABgAEPBgABwwEPBgABwgEfBgAB4AEfBgAB4AERBgAB4AExBgAB8AExBgAB8AFA
+        BgAB+AFABgAB/wHxBgAB/wHxBgABGAEAAv8B/gE/AfABDwIAAYABAwH8AR8B5wHjAQMB/wGAAQEB+AEP
+        Ac8B+QGBAf8BgAEBAfgBTwGfAf0BgAH/AQABHwHuAXMBPwH8AYAB/wEAAQ8BxgFxAT8B/gHAAX8BgAEH
+        AYwBOAF/Af4B4AE/AcABAwKAAn4B4AE/AeABAQGAAQACfgH4AQ8B8AEAAY4BMQE/Af4B+AEPAfgBAAHG
+        AXMBPwH+AfwBBwH8AQAB+gFfAb8B/AH+AQMB/gEBAfgBDwGfAfkB/gEDAf8BAwH4AR8BzwHzAf8BBwH/
+        AYcB/AE/AeEBxwb/AfgBDws=
+</value>
+  </data>
+  <data name="EditionToolBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EditionToolBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 0</value>
+  </data>
+  <data name="EditionToolBar.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EditionToolBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 26</value>
+  </data>
+  <data name="EditionToolBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EditionToolBar.Name" xml:space="preserve">
+    <value>EditionToolBar</value>
+  </data>
+  <data name="&gt;&gt;EditionToolBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EditionToolBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EditionToolBar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GraphStatusBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GraphStatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 630</value>
+  </data>
+  <data name="NbNodesPanel.Name" xml:space="preserve">
+    <value>NbNodesPanel</value>
+  </data>
+  <data name="NbNodesPanel.Text" xml:space="preserve">
+    <value>NbNodes</value>
+  </data>
+  <data name="NbNodesPanel.ToolTipText" xml:space="preserve">
+    <value>Number of nodes</value>
+  </data>
+  <data name="NbNodesPanel.Width" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="NbArcsPanel.Name" xml:space="preserve">
+    <value>NbArcsPanel</value>
+  </data>
+  <data name="NbArcsPanel.Text" xml:space="preserve">
+    <value>NbArcs</value>
+  </data>
+  <data name="NbArcsPanel.ToolTipText" xml:space="preserve">
+    <value>Number of arcs</value>
+  </data>
+  <data name="NbArcsPanel.Width" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="CoordsPanel.Alignment" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="CoordsPanel.Name" xml:space="preserve">
+    <value>CoordsPanel</value>
+  </data>
+  <data name="CoordsPanel.Text" xml:space="preserve">
+    <value>Coordinates</value>
+  </data>
+  <data name="CoordsPanel.Width" type="System.Int32, mscorlib">
+    <value>851</value>
+  </data>
+  <data name="GraphStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>978, 26</value>
+  </data>
+  <data name="GraphStatusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GraphStatusBar.Text" xml:space="preserve">
+    <value>GraphStatusBar</value>
+  </data>
+  <data name="&gt;&gt;GraphStatusBar.Name" xml:space="preserve">
+    <value>GraphStatusBar</value>
+  </data>
+  <data name="&gt;&gt;GraphStatusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GraphStatusBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GraphStatusBar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="FichierToolBar.Appearance" type="System.Windows.Forms.ToolBarAppearance, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="BoutonNouveau.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BoutonNouveau.ToolTipText" xml:space="preserve">
+    <value>Clear the current graph to create a new one</value>
+  </data>
+  <data name="BoutonCharger.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BoutonCharger.ToolTipText" xml:space="preserve">
+    <value>Load a graph</value>
+  </data>
+  <data name="BoutonSauver.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BoutonSauver.ToolTipText" xml:space="preserve">
+    <value>Save the current graph</value>
+  </data>
+  <data name="BoutonAProposDe.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BoutonAProposDe.ToolTipText" xml:space="preserve">
+    <value>About GraphFormer...</value>
+  </data>
+  <data name="FichierToolBar.ButtonSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="FichierToolBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="FichierToolBar.DropDownArrows" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="ImagesFichier.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>155, 17</value>
+  </metadata>
+  <data name="ImagesFichier.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAU
+        CwAAAk1TRnQBSQFMAgEBBAEAAWQBAAFkAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8ABgABDwxD
+        AREBDgEAAf8L9wHzAgAB/wKLARIITAOLCAAB8wHyAf8HAAHvDP8B8wEPAQABFQwAAf8CAAGLAZEBbQh1
+        AYsBkQGLCAABbQEAAfIHAAHvAf8LAAHzAQ8BAAEOAfAK/wEOAfMCAAGQAbsB6wH/AvMC8gLxAfQBiwG7
+        AYsIAAH3AW0B8wcAAe8B/wsAAfMBDwEAAQ4BbQoAAUMBBwIAApAB6wP/AvQCGQH0AYsBkAGLCAAD/wcA
+        Ae8B/wsAAfMBDwEAAg4KAAFtARMCAAGQAbMB7AH/BhoB9AGQAbMBiwgAAW0BDgHzBwAB7wH/CwAB8wEP
+        AQABDgsAAe8BDwIAAZABswHsAf8DmgOUAfQBkQGzAYsIAAFtAQAB8gcAAe8B/wsAAfMBDwEAAQ4BAAH0
+        CQAB8wEOAf8BAAKzAewB/wT2AvQB9gGRAbMBkAgAAW0BAAFtAfEB/wUAAe8B/wsAAfMBDwEAAQ4BAAHx
+        CQAB/wEAAfQBAA2zAZAIAAHsAQ4CAAHxBQAB7wH/CwAB8wEPAQABDgEAAfcLAAHxAQADswG0AvABvAEH
+        Ae8B9wGSAbsCswgAAf8B8wHsAQABbQH/BAAB7wH/CwAB8wEPAQADDgptAQABBwEAArMCkAHxAfIB8AEH
+        Ae0CbAG7ArMKAAHzAQ4BDwH/BAAB7wH/CwAB8wEPAQABDgHwCwABDgH0AQACswKQAfAC8gHwAZIBiwGu
+        AbsCswoAAfQBDwEOAfQEAAHvAf8HAAT/AfIBDwEAAQ4B8wUABP8B9AEAAf8CAAK0ApAB8AHxAvIB9wGL
+        Aa4BuwK0BgAB/wMAAfEBAAERAf8EAAHvAf8HAAH/AeoBDgEPAQ4BDwEAAQ4B8wQAARUGAAH/AgACtAKQ
+        AbwB8QLyAfcBiwGRAbsBtAG7BQAB/wHvAfcB8AEHARQBAAHtAf8EAAHvAf8HAAH0ARUB7QFtAUMB8wEA
+        AQ4BbQPsAeoBAAEHBPEB9AMAAroBtAG6AfIB8wP0AfMB8gEZAQkGAAHxAQ4EAAEUAfQFAAGSCPQB8wFD
+        AQAB7AH/AgAB9wUAAe8cAAH/AbwB7AJtAe8B9AH/BAABFAoAAQ4BBwH/MgABQgFNAT4HAAE+AwABKAMA
+        AUADAAEgAwABAQEAAQEGAAEBFgAD/4MAAYABAwEAAQEB/gE/AgABgAEBAYABAQH+AT8BHwH8AYABAQGA
+        AQEB/gE/AR8B/AGfAfkBgAEBAf4BPwEfAfwBnwH5AYABAQH+AT8BHwH8AZ8B+QGAAQEB/gE/AR8B/AGP
+        AfgBgAEBAf4BDwEfAfwBjwH4AYABAQH+AQ8BHwH8AY8B/AGAAQEB/gEHAR8B/AGAAQABgAEBAf8BhwEf
+        AfwBgAEAAYABAQH/AYcBHwHAAZ8BAQGAAQEB+wGHAR8BwAGeAQEBgAEBAfABBwEfAcABgAEDAYABAwHw
+        AQ8BAAEBAYAD/wHwAQ8BAAEDBv8L
+</value>
+  </data>
+  <data name="FichierToolBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FichierToolBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="FichierToolBar.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FichierToolBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 26</value>
+  </data>
+  <data name="FichierToolBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FichierToolBar.Name" xml:space="preserve">
+    <value>FichierToolBar</value>
+  </data>
+  <data name="&gt;&gt;FichierToolBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FichierToolBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FichierToolBar.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="AEtoileToolBar.Appearance" type="System.Windows.Forms.ToolBarAppearance, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="AEtoileDebut.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AEtoileDebut.ToolTipText" xml:space="preserve">
+    <value>Initialize A*</value>
+  </data>
+  <data name="AEtoileEtape.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AEtoileEtape.ToolTipText" xml:space="preserve">
+    <value>Perform A*'s next step</value>
+  </data>
+  <data name="AEtoileFin.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AEtoileFin.ToolTipText" xml:space="preserve">
+    <value>Perform A* to the end</value>
+  </data>
+  <data name="AEtoileToolBar.ButtonSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="AEtoileToolBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="AEtoileToolBar.DropDownArrows" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="ImagesPasAPas.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>288, 17</value>
+  </metadata>
+  <data name="ImagesPasAPas.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAD+
+        CAAAAk1TRnQBSQFMAgEBAwEAAWQBAAFkAQABEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAARADAAEBAQABCAYAAQQYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD/wcAAf8PAAH/CPMB/woA
+        AfQaAAIJDwAB/wYJAbUBpwHzCgABpwH/GAAB9AGtFgAB/wGnAbUB8woAAf8BpxgAAacB/xUAAf8BpwH/
+        AQkB8wsAAd0BtRYAAbUB3RUAAf8BpwH/AQABCQHzDAABzwH0FAAB9AHPFQAB/wGnAf8CAAEJAfMMAAH/
+        AacUAAGnAf8UAAH/AacB/wMAAQkB8w0AAfIBzxIAAc8BpwytAQkHAAH/AacB/wQAAQkB8wEAAc8LrQHP
+        AacB8xEAAfMBzw3/BgAB/wGnAf8FAAEJAfMBAA3/AacTAAHPAfIRAAH/AacB/wYAAv8NAAHPAfQUAAGn
+        Af8PAAH/AacB/xUAAd0BtRUAAfQBzw4AAf8BpwH/FQAB/wGnAf8WAAG1Ad0MAAH/AacB/xYAAa0B9BgA
+        AacB/woAAf8BpwH/FgACCRkAAf8BCQoAAc8B/xcAAc9VAAFCAU0BPgcAAT4DAAEoAwABQAMAARADAAEB
+        AQABAQUAAYAXAAP/AQAB/QH/AfwBAAH/Ad8CAAH5Af8B/AEAAf8BzwIAAfMC/wHwAf8BzwIAAfMC/wHg
+        Af8B5wIAAecC/wHEAf8B8wIAAc8C/wGMAf8B8wIAAc8C/wEcAf8B+QIAAYABAAH+ATwBgAMAAYABAAH8
+        AXwBgAEBAgABzwH/AfgB/AH/AfkCAAHnAf8B8QL/AfMCAAHnAf8B4wL/AeMCAAHzAf8BxwL/AecCAAH5
+        Af8BjwL/Ac8CAAH5Af8BnwL/Ad8CAAb/AgAL
+</value>
+  </data>
+  <data name="AEtoileToolBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AEtoileToolBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 0</value>
+  </data>
+  <data name="AEtoileToolBar.ShowToolTips" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AEtoileToolBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 26</value>
+  </data>
+  <data name="AEtoileToolBar.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AEtoileToolBar.Name" xml:space="preserve">
+    <value>AEtoileToolBar</value>
+  </data>
+  <data name="&gt;&gt;AEtoileToolBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AEtoileToolBar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AEtoileToolBar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LabelAide.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LabelAide.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="LabelAide.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LabelAide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LabelAide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>978, 26</value>
+  </data>
+  <data name="LabelAide.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabelAide.Text" xml:space="preserve">
+    <value>Aide</value>
+  </data>
+  <data name="LabelAide.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;LabelAide.Name" xml:space="preserve">
+    <value>LabelAide</value>
+  </data>
+  <data name="&gt;&gt;LabelAide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LabelAide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LabelAide.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="languageTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>607, 5</value>
+  </data>
+  <data name="languageTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="languageTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;languageTxt.Name" xml:space="preserve">
+    <value>languageTxt</value>
+  </data>
+  <data name="&gt;&gt;languageTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageTxt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;languageTxt.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GraphPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="GraphPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="GraphPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <data name="GraphPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>978, 604</value>
+  </data>
+  <data name="GraphPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;GraphPanel.Name" xml:space="preserve">
+    <value>GraphPanel</value>
+  </data>
+  <data name="&gt;&gt;GraphPanel.Type" xml:space="preserve">
+    <value>Titan.PathFindTool.FlickerFreePanel, Titan.PathFindTool, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;GraphPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GraphPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-TW</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing">
+    <value>6, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>978, 656</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>A*路径计算工具</value>
+  </data>
+  <data name="&gt;&gt;BoutonDessiner.Name" xml:space="preserve">
+    <value>BoutonDessiner</value>
+  </data>
+  <data name="&gt;&gt;BoutonDessiner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BoutonEffacer.Name" xml:space="preserve">
+    <value>BoutonEffacer</value>
+  </data>
+  <data name="&gt;&gt;BoutonEffacer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BoutonDeplacer.Name" xml:space="preserve">
+    <value>BoutonDeplacer</value>
+  </data>
+  <data name="&gt;&gt;BoutonDeplacer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BoutonChangerEtat.Name" xml:space="preserve">
+    <value>BoutonChangerEtat</value>
+  </data>
+  <data name="&gt;&gt;BoutonChangerEtat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BoutonAEtoile.Name" xml:space="preserve">
+    <value>BoutonAEtoile</value>
+  </data>
+  <data name="&gt;&gt;BoutonAEtoile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImagesActions.Name" xml:space="preserve">
+    <value>ImagesActions</value>
+  </data>
+  <data name="&gt;&gt;ImagesActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NbNodesPanel.Name" xml:space="preserve">
+    <value>NbNodesPanel</value>
+  </data>
+  <data name="&gt;&gt;NbNodesPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NbArcsPanel.Name" xml:space="preserve">
+    <value>NbArcsPanel</value>
+  </data>
+  <data name="&gt;&gt;NbArcsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CoordsPanel.Name" xml:space="preserve">
+    <value>CoordsPanel</value>
+  </data>
+  <data name="&gt;&gt;CoordsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusBarPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BoutonNouveau.Name" xml:space="preserve">
+    <value>BoutonNouveau</value>
+  </data>
+  <data name="&gt;&gt;BoutonNouveau.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BoutonCharger.Name" xml:space="preserve">
+    <value>BoutonCharger</value>
+  </data>
+  <data name="&gt;&gt;BoutonCharger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BoutonSauver.Name" xml:space="preserve">
+    <value>BoutonSauver</value>
+  </data>
+  <data name="&gt;&gt;BoutonSauver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BoutonAProposDe.Name" xml:space="preserve">
+    <value>BoutonAProposDe</value>
+  </data>
+  <data name="&gt;&gt;BoutonAProposDe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sep1.Name" xml:space="preserve">
+    <value>Sep1</value>
+  </data>
+  <data name="&gt;&gt;Sep1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImagesFichier.Name" xml:space="preserve">
+    <value>ImagesFichier</value>
+  </data>
+  <data name="&gt;&gt;ImagesFichier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Sep2.Name" xml:space="preserve">
+    <value>Sep2</value>
+  </data>
+  <data name="&gt;&gt;Sep2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AEtoileDebut.Name" xml:space="preserve">
+    <value>AEtoileDebut</value>
+  </data>
+  <data name="&gt;&gt;AEtoileDebut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AEtoileEtape.Name" xml:space="preserve">
+    <value>AEtoileEtape</value>
+  </data>
+  <data name="&gt;&gt;AEtoileEtape.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AEtoileFin.Name" xml:space="preserve">
+    <value>AEtoileFin</value>
+  </data>
+  <data name="&gt;&gt;AEtoileFin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolBarButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ImagesPasAPas.Name" xml:space="preserve">
+    <value>ImagesPasAPas</value>
+  </data>
+  <data name="&gt;&gt;ImagesPasAPas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GraphFormer</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
